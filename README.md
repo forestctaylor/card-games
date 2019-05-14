@@ -1,5 +1,4 @@
-# card-games
-### by @forestctaylor
+# card-games ### by @forestctaylor
 
 A Python-based repository containing resources for developing and playing single-player, command-line-based card games against artificially intelligent opponents. This repository is practice for future GUI-based card games for iPhone and Android.
 
