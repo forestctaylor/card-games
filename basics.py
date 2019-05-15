@@ -7,6 +7,10 @@ deck using numpy for shuffling.
 
 import numpy as np
 
+"""
+CLASSES & OBJECTS
+"""
+
 class Card():
     """
     Supporter class for Deck.
@@ -64,7 +68,6 @@ class Deck():
     """
     def __init__(self, num_decks=1):
         self.num_decks = num_decks # 52*num_decks = len(cards)
-        self.aces = aces # aces high or low
         self.cards = []
         for deck in range(self.num_decks):
             for suit in range(1,5): # actually only looks for 1, 2, 3, 4
